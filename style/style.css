@@ -1,0 +1,47 @@
+.banner-container{
+   
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    width: 1920px;
+    height: 850px;
+    align-items: center;
+    border: 2px solid red;
+    background-color:antiquewhite;
+}
+.title{
+    padding: 190px 20px 10px 250px;
+    /* color: #272727; */
+    font-size: 80px;
+    /* font-family: Lato; */
+    font-weight: 800;
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0; 
+}
+.p-description{
+    padding: 30px 250px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn{
+    margin-left: 250px;
+    padding: 10px 20px;
+    background-color: rgb(199, 30, 30);
+    color: white;
+}
+.banner-img{
+    width: 635px;
+    height: 800px;
+    padding: 50px 242px 0px 0px;
+}
+.itle-text{ 
+    width:50px ;
+    justify-content: center;
+}.f-flower{
+    width: 1920px;
+height: 4867px;
+}
