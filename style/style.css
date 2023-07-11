@@ -5,7 +5,7 @@
 
 nav{
     display: flex;
-    font-size: xx-large;
+    font-size:100px;
     
 }
 nav >ul {
@@ -16,8 +16,9 @@ nav li{
     list-style: none;
     margin-right: 70px;
     margin: 50px 70px;
-   
-    font-size:xx-large;
+    font-size:50px;
+    font-style:oblique ;
+    color: aqua;
 }
 /* section one */
 .banner-container{
