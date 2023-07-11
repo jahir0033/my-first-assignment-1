@@ -1,10 +1,8 @@
 *{
-    margin: 0px;
-    padding-top:  30px;
-    width:auto;
-    ;
-    
+    padding-top:10px;
+    width:auto; 
 }
+/* section one */
 .banner-container{
    
     display: flex;
@@ -78,6 +76,41 @@ font-size: 18px;
 /* font-style: normal; */
 /* font-weight: 400; */
 /* line-height: 30px */
+}
+/* section tow */
+.image{
+    width: 150px;
+    /* padding: 100px250px; */
+    /* margin: 100px 100px ; */
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content:center; */
+}
+#image{
+    border: solid 1px red;
+}
+.box-b{
+    padding:50px 40PX;
+    gap: 2px;
+    /* height: 250; */
+    margin: 5px 10px;
+    margin-left: 20px;
+    /* border: solid 2px red; */
+    background-color: #e9e1e3;
+    border-top-right-radius: 100px;
+    width: 350px;
+    height: 538px;
+    flex-shrink: 0;
+    
+}
+.pic{
+    width: 310px;
+   height: 428px;
+/* flex-shrink: 0;  */
+padding-: 0px 5px 0px 5px;
+}
+.pic{
+    padding-bottom:0px ;
 }
 .banner-container-nd{
     width: 1922px;
