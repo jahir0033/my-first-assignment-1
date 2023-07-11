@@ -1,6 +1,23 @@
 *{
-    padding-top:10px;
-    width:auto; 
+     padding-top:10px;
+     width:auto; 
+}
+
+nav{
+    display: flex;
+    font-size: xx-large;
+    
+}
+nav >ul {
+    display: flex;
+    align-items: center;
+}
+nav li{ 
+    list-style: none;
+    margin-right: 70px;
+    margin: 50px 70px;
+   
+    font-size:xx-large;
 }
 /* section one */
 .banner-container{
@@ -16,9 +33,7 @@
 }
 .title{
     padding: 190px 20px 10px 250px;
-    /* color: #272727; */
     font-size: 80px;
-    /* font-family: Lato; */
     font-weight: 800;
     display: flex;
     width: 708px;
@@ -65,37 +80,36 @@ height: 4867px;
     line-height: normal;
 }
 .tiitle-des-ex{
-    /* display: flex; */
-/* width: 594px; */
-/* flex-direction: column; */
-/* flex-shrink: 0; */
 color: rgba(39, 39, 39, 0.60);
-/* text-align: center; */
-/* font-family: Lato; */
 font-size: 18px;
-/* font-style: normal; */
-/* font-weight: 400; */
-/* line-height: 30px */
 }
 /* section tow */
 .image{
     width: 150px;
-    /* padding: 100px250px; */
-    /* margin: 100px 100px ; */
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content:center; */
 }
 #image{
     border: solid 1px red;
 }
+.extra{
+    display: flex;
+    width: 1440px;/
+    height: 320px;
+    flex-shrink: 0;
+    align-items:center;
+    font-size: 25px;
+    margin-left: 400px;
+    gap: 20px;
+
+}
+.si{
+    padding: 0px 50px 50px 20px;
+}
 .box-b{
     padding:50px 40PX;
     gap: 2px;
-    /* height: 250; */
     margin: 5px 10px;
     margin-left: 20px;
-    /* border: solid 2px red; */
     background-color: #e9e1e3;
     border-top-right-radius: 100px;
     width: 350px;
@@ -106,7 +120,6 @@ font-size: 18px;
 .pic{
     width: 310px;
    height: 428px;
-/* flex-shrink: 0;  */
 padding-: 0px 5px 0px 5px;
 }
 .pic{
@@ -120,25 +133,13 @@ padding-: 0px 5px 0px 5px;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
-    /* justify-content:space-around; */
-    /* height: 100vh; */
-    /* width: 1920px; */
-    /* height: 850px; */
-    /* align-items: center; */
-    /* border: 2px solid red; */
-    /* background-color:antiquewhite; */
 }
 .title-nd{
     padding: 155px 0px 10px 250px;
-    /* color: #272727; */
     font-size: 80px;
-    /* font-family: Lato; */
     color: #272727;
-/* font-family: Lato; */
-font-size: 40px;
-/* font-style: normal; */
-font-weight: 800;
-/* line-height: normal; */
+    font-size: 40px;
+    font-weight: 800;
 }
 .color{
     color:rgb(229, 84, 115);
@@ -150,8 +151,6 @@ font-weight: 800;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    /* font-family: Lato; */
-    /* font-style: normal; */
 }  
 .banner-img-nd{
     width: 318px;
@@ -168,10 +167,8 @@ font-weight: 800;
 .containet-img{
     width: 150px;
     padding: 100px250px;
-    /* margin: 100px 100px ; */
     display: flex;
     flex-direction: row;
-    /* justify-content:center; */
 }
 .box{
     padding:50px 50PX;
@@ -186,7 +183,6 @@ font-weight: 800;
 }
 .box img{
     display:flex;
-    /* width: 100px; */
     border-radius: 5px;
     
 
@@ -195,28 +191,19 @@ font-weight: 800;
     z-index: 2;
 }
 .last-one{
-    width: 1440px;
-    height: 449px;
-    flex-shrink: 0;
-    /* padding:100px 250px 150px 20px ; */
     background-image: url(../image/Rectangle\ 9.png);
     background-repeat: no-repeat;
     width: 1922px;
-    height: 449px;
-    /* flex-shrink: 0; */
+     height: 449px; 
     margin: 100px 256px;
     text-align: center;
-    /* background-position: center; */
 
 }
 .last-one-title{
     color: #272727;
-    /* text-align: center; */
     font-family: Lato;
     font-size: 40px;
-    /* font-style: normal; */
     font-weight: 800;
-    /* line-height: normal; */
 }
 .loseb{
     display: inline;
@@ -225,12 +212,11 @@ font-weight: 800;
 }.email{
     padding: 15px 25px;
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-/* font-style: normal; */
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 .btn-nd-l-one{
     padding: 15px 5px;
